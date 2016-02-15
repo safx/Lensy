@@ -10,8 +10,8 @@ script:
 - open -b com.apple.iphonesimulator --args -CurrentDeviceUDID $SIMULATOR_ID
 - set -o pipefail
 - xcodebuild -project Lensy.xcodeproj -scheme Lensy-iOS test -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" | xcpretty -c
-- xcodebuild -project Lensy.xcodeproj -scheme Lensy-Mac test -sdk macosx | xcpretty -c
-- pod lib lint --quick
+- xcodebuild -project Lensy.xcodeproj -scheme Lensy-OSX build -sdk macosx | xcpretty -c
+#- pod lib lint --quick
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)

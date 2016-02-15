@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D398BF11C6DDB9500D48469"
                BuildableName = "Lensy.framework"
-               BlueprintName = "Lensy"
+               BlueprintName = "Lensy-iOS"
                ReferencedContainer = "container:Lensy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D398BF11C6DDB9500D48469"
             BuildableName = "Lensy.framework"
-            BlueprintName = "Lensy"
+            BlueprintName = "Lensy-iOS"
             ReferencedContainer = "container:Lensy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D398BF11C6DDB9500D48469"
             BuildableName = "Lensy.framework"
-            BlueprintName = "Lensy"
+            BlueprintName = "Lensy-iOS"
             ReferencedContainer = "container:Lensy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D398BF11C6DDB9500D48469"
             BuildableName = "Lensy.framework"
-            BlueprintName = "Lensy"
+            BlueprintName = "Lensy-iOS"
             ReferencedContainer = "container:Lensy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
