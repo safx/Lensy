@@ -10,8 +10,8 @@
 // MARK: - Lenses API
 
 public protocol LensType {
-    typealias Whole
-    typealias Part
+    associatedtype Whole
+    associatedtype Part
     var get: Whole -> LensResult<Part> { get }
     var set: (Whole, Part) -> LensResult<Whole> { get }
 }
@@ -157,15 +157,15 @@ public enum LensErrorType: ErrorType {
 // MARK: - Lens Helper
 
 public protocol LensHelperType {
-    typealias Whole
-    typealias Part
+    associatedtype Whole
+    associatedtype Part
 
     init(lens: Lens<Whole, Part>)
     var lens: Lens<Whole, Part> { get }
 }
 
 public protocol HasSubLensHelper {
-    typealias SubLensHelper
+    associatedtype SubLensHelper
 }
 
 public struct LensHelper<Whole, Part>: LensHelperType {
